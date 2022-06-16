@@ -1,0 +1,29 @@
+{
+  "name": "m1xa4kala-personal-website",
+  "version": "1.0.0",
+  "description": "Mikhail's personal website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Mikhail Khaybullin",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.7.1"
+  }
+}
