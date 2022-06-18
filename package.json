@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mikhail's personal website",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./ --ext js,jsx",
@@ -19,7 +19,8 @@
     "framer-motion": "^6.3.11",
     "next": "^12.1.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "eslint": "^8.17.0",
