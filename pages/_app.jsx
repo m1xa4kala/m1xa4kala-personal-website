@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../components/layouts/Main'
 
 const MyApp = ({ router, Component, pageProps }) => {
