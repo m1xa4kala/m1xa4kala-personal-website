@@ -3,13 +3,13 @@ import Head from 'next/head'
 import React from 'react'
 import Header from '../header'
 
-const Main = ({ children }) => {
+const Main = ({ children, router }) => {
   return (
     <Box as='main' pb={6}>
       <Head>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <Header />
+      <Header path={router} />
       <Container pt={10}>{children}</Container>
     </Box>
   )

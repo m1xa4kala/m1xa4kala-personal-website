@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import { HStack, Heading, Icon } from '@chakra-ui/react'
-import { IoLogoReact } from 'react-icons/io'
+import { IoLogoJavascript } from 'react-icons/io'
 
 const Logo = () => {
   return (
     <Link href='/'>
       <a>
         <HStack>
-          <Icon as={IoLogoReact} />
+          <Icon as={IoLogoJavascript} />
           <Heading>Mikhail Khaybullin</Heading>
         </HStack>
       </a>
