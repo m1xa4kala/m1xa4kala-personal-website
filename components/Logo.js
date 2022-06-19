@@ -1,17 +1,15 @@
-import Link from 'next/link'
-import { HStack, Heading, Icon } from '@chakra-ui/react'
-import { IoLogoJavascript } from 'react-icons/io'
+import NextLink from 'next/link'
+import { Heading } from '@chakra-ui/react'
 
 const Logo = () => {
   return (
-    <Link href='/'>
+    <NextLink href='/'>
       <a>
-        <HStack>
-          <Icon as={IoLogoJavascript} />
-          <Heading>Mikhail Khaybullin</Heading>
-        </HStack>
+        <Heading size='md' fontWeight={500}>
+          Mikhail Khaybullin
+        </Heading>
       </a>
-    </Link>
+    </NextLink>
   )
 }
 
