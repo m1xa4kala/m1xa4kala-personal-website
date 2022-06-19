@@ -10,7 +10,9 @@ const Main = ({ children, router }) => {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header path={router} />
-      <Container pt={10}>{children}</Container>
+      <Container pt={6} maxW='sm'>
+        {children}
+      </Container>
     </Box>
   )
 }
