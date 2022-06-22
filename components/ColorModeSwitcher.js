@@ -8,7 +8,7 @@ const ColorModeSwitcher = () => {
 
   return (
     <IconButton
-      size='sm'
+      size='md'
       variant='ghost'
       colorScheme={useColorModeValue('telegram', 'orange')}
       onClick={toggleColorMode}
