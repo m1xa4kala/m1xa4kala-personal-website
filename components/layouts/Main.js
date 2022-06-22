@@ -1,7 +1,7 @@
 import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import React from 'react'
-import Header from '../header'
+import Header from '../Header.js'
 
 const Main = ({ children, router }) => {
   return (
@@ -10,7 +10,7 @@ const Main = ({ children, router }) => {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header path={router} />
-      <Container pt={6} maxW='sm'>
+      <Container pt={14} maxW={['sm', 'container.sm', 'container.md', 'container.lg']}>
         {children}
       </Container>
     </Box>
