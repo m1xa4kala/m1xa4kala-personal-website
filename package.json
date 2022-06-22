@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mikhail's personal website",
   "scripts": {
-    "dev": "next -H 0.0.0.0 -p 5000",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./ --ext js,jsx",
@@ -13,6 +13,7 @@
   "author": "Mikhail Khaybullin",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
