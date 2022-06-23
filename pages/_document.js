@@ -14,7 +14,7 @@ class Website extends Document {
           />
         </Head>
         <body>
-          <ColorModeScript/>
+          <ColorModeScript />
           <Main />
           <NextScript />
         </body>
