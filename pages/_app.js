@@ -1,8 +1,10 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/Main'
+import { useRouter } from 'next/router'
 import theme from '../lib/theme'
 
-const MyApp = ({ router, Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }) => {
+  const router = useRouter()
   return (
     <ChakraProvider resetCSS theme={theme}>
       <Layout router={router}>
