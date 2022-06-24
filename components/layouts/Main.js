@@ -5,15 +5,17 @@ import Header from '../Header.js'
 
 const Main = ({ children, router }) => {
   return (
-    <Box as='main' pb={6}>
+    <>
       <Head>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header path={router} />
-      <Container pt={14} maxW={['sm', 'container.sm', 'container.md', 'container.lg']}>
-        {children}
-      </Container>
-    </Box>
+      <Box as='main' pb={6}>
+        <Container pt={14} maxW={['sm', 'container.sm', 'container.md', 'container.lg']}>
+          {children}
+        </Container>
+      </Box>
+    </>
   )
 }
 
