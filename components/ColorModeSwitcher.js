@@ -17,10 +17,11 @@ const ColorModeSwitcher = () => {
       >
         <IconButton
           aria-label='Toggle theme'
-          colorScheme={useColorModeValue('purple', 'orange')}
+          variant='ghost'
+          colorScheme={useColorModeValue('cyan', 'orange')}
           icon={useColorModeValue(<FaMoon />, <FaSun />)}
           onClick={toggleColorMode}
-        ></IconButton>
+        />
       </motion.div>
     </AnimatePresence>
   )
