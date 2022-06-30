@@ -3,6 +3,7 @@ import Layout from '../components/layouts/Article'
 import Avatar from '../components/Avatar'
 import Info from '../components/Info'
 import About from '../components/About'
+import Hobbies from '../components/Hobbies'
 
 const index = () => {
   return (
@@ -15,6 +16,9 @@ const index = () => {
       </GridItem>
       <GridItem>
         <About />
+      </GridItem>
+        <GridItem>
+        <Hobbies />
       </GridItem>
     </Layout>
   )
