@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
-import { SimpleGrid } from '@chakra-ui/react'
+import { VStack } from '@chakra-ui/react'
 
 const Layout = ({ children, title }) => {
   const t = 'm1xa4kala - ' + title
@@ -20,9 +20,9 @@ const Layout = ({ children, title }) => {
             <title>{t}</title>
           </Head>
         )}
-        <SimpleGrid columns={['1', '1', '2']} py={4} gap={4}>
-        {children}
-        </SimpleGrid>
+        <VStack py={6} spacing={6}>
+          {children}
+        </VStack>
       </motion.article>
     </>
   )
