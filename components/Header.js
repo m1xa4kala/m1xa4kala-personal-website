@@ -34,7 +34,7 @@ const Header = props => {
       as='header'
       position='fixed'
       py={1.5}
-      bg={useColorModeValue('#ffffff40', '#222E3A')}
+      bg={useColorModeValue('#ffffff', '#222E3A')}
       boxShadow='sm'
       w='full'
       zIndex={10}
